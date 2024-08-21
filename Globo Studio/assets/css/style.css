@@ -1,4 +1,4 @@
-nav{
+nav {
     background-color: #9C5CFF;
     width: 100%;
     height: 100vh;
@@ -10,7 +10,7 @@ li {
     margin-top: 70px;
 }
 
-.img1{
+.img1 {
     width: 5%;
     height: 5vh;
     position: absolute;
@@ -18,10 +18,22 @@ li {
     left: 25%;
 }
 
-.img2{
-    width: 5%;
+.img2 {
+    width: 15%;
     height: 5vh;
     position: absolute;
     top: 25px;
     left: 75%;
+}
+
+@media (min-width:600px) {
+
+    nav {
+        background-color: #9C5CFF;
+        width: 100%;
+        height: 20vh;
+        text-align: center;
+
+    }
+
 }
