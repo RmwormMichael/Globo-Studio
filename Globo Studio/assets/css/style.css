@@ -1,28 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
 nav {
     background-color: #9C5CFF;
     width: 100%;
     height: 100vh;
     text-align: center;
+    color: #ffffff;
 }
 
+
 li {
-    margin-top: 70px;
+    margin-top: 90px;
     list-style: none;
+    font-size: 30px;
 }
 
 .img1 {
     width: 5%;
     height: 5vh;
     position: absolute;
-    top: 45px;
-    left: 25%;
+    top: 40px;
+    left: 20%;
 }
 
 .lines {
     margin-left: 80%;
     position: relative;
     display: block;
-    top: 30px;
+    top: 40px;
     cursor: pointer;
 }
 
@@ -55,12 +64,12 @@ li {
 main {
     width: 100%;
     height: 100vh;
-    text-align: center;
 }
 
 h1 {
     margin-top: 0px;
     font-family: sans-serif;
+    font-size: 30px;
 }
 
 section {
@@ -73,12 +82,13 @@ section {
 .PagPrin {
     text-align: center;
     background-color: #9C5CFF;
+    color: #ffffff;
 }
 
 .About {
     width: 100%;
     height: 40%;
-    text-align: center;
+    text-align: left;
 }
 
 .img2 {
@@ -89,31 +99,43 @@ section {
 }
 
 .info1 {
-    width: 60%;
-    height: 20vh;
+    width: 90%;
+    height: 23vh;
     background-color: #c17fff;
     border-radius: 5%;
     position: absolute;
     left: 5%;
-    top: 15%;
+    top: 11%;
 }
 
 .info2 {
-    width: 60%;
-    height: 20vh;
+    width: 90%;
+    height: 23vh;
     background-color: #c17fff;
     border-radius: 5%;
     position: absolute;
     right: 5%;
-    top: 45%;
+    top: 40%;
 }
 
 .info3 {
-    width: 60%;
-    height: 20vh;
+    width: 90%;
+    height: 23vh;
     background-color: #c17fff;
     border-radius: 5%;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 5%;
+}
+
+.encabezado {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.parrafo {
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #ffffff;
 }
