@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #9C5CFF;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+li {
+    margin-top: 90px;
+    list-style: none;
+    font-size: 30px;
+}
+
+.img1 {
+    width: 5%;
+    height: 5vh;
+    position: absolute;
+    top: 40px;
+    left: 20%;
+}
+
+.lines {
+    margin-left: 80%;
+    position: relative;
+    display: block;
+    top: 40px;
+    cursor: pointer;
+}
+
+.line1 {
+    background-color: black;
+    width: 40px;
+    height: 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.line2 {
+    background-color: black;
+    width: 40px;
+    height: 8px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.line3 {
+    background-color: black;
+    width: 40px;
+    height: 8px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+section {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.PagPrin {
+    text-align: center;
+    background-color: #9C5CFF;
+    color: #ffffff;
+}
+
+.About {
+    width: 100%;
+    height: 40%;
+    text-align: left;
+}
+
+.img2 {
+    width: 5%;
+    height: 5vh;
+    top: 45px;
+    left: 25%;
+}
+
+.info1 {
+    width: 90%;
+    height: 23vh;
+    background-color: #c17fff;
+    border-radius: 5%;
+    position: absolute;
+    left: 5%;
+    top: 11%;
+}
+
+.info2 {
+    width: 90%;
+    height: 23vh;
+    background-color: #c17fff;
+    border-radius: 5%;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.info3 {
+    width: 90%;
+    height: 23vh;
+    background-color: #c17fff;
+    border-radius: 5%;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.encabezado {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.parrafo {
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #ffffff;
+}
